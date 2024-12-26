@@ -39,7 +39,13 @@
 # print(name,salary,company_name)
 
 # tak4
-a="print('Hello world')"
-print(a)
-b="c:\ChangepondNewBatch\Python"
-print(b)
+# a="print('Hello world')"
+# print(a)
+# b="c:\ChangepondNewBatch\Python"
+# print(b)
+
+a=input()
+c=0
+for i in a:
+    c+=int(i)
+print(c)

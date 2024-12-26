@@ -1,4 +1,4 @@
-task 1 (Access Values)
+# task 1 (Access Values)
 fruits=['mango',['fruitpulp','mixedfruit'],'banana',('apple','grapes')]
 print(fruits[0])
 print(fruits[1])
