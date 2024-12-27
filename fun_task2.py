@@ -25,10 +25,9 @@ def add(additem):
     print("Item Added Successfully \n")
 
     
-def update(old,new):
-    index=Menu.index(old)
-    Menu.remove(old)
-    Menu.insert(index,new)
+def update(oldelement,newelement):
+    index=Menu.index(oldelement)
+    Menu[index]=newelement
     display()
     print("Item Updated Successfully \n")
     
@@ -57,7 +56,7 @@ def main():
             delete(delitem)
         else:
             print("Enter the above option 1 / 2 / 3 / 4 ")
-        
+    
     
 if __name__=="__main__":
    
